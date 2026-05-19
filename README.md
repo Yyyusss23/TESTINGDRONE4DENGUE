@@ -85,17 +85,17 @@ UC<number>_<use_case_name>_<tool>.ext
 #### Selenium scripts
 
 ```
-UC3_reset_password_selenium.java
+UC3_reset_password_selenium.py
 UC5_login_validation_selenium.py
-UC7_add_to_cart_selenium.java
+UC7_add_to_cart_selenium.py
 ```
 
 #### Appium scripts
 
 ```
-UC3_reset_password_appium.java
-UC2_user_registration_appium.java
-UC6_checkout_flow_appium.js
+UC3_reset_password_appium.py
+UC2_user_registration_appium.py
+UC6_checkout_flow_appium.py
 ```
 
 ---
