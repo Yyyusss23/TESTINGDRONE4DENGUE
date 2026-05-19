@@ -1,6 +1,4 @@
 # TESTINGDRONE4DENGUE
-Put this directly into your `README.md` so your team stops committing random nonsense and calling it “done”.
-
 ---
 
 ## 📌 Commit Message Guidelines
@@ -59,5 +57,3 @@ These are useless because nobody can tell what actually changed.
 * Be descriptive, not lazy
 
 ---
-
-If your group ignores this, your Git history will turn into a mess and debugging will become a punishment later.
