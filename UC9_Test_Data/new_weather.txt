@@ -1,0 +1,4 @@
+Incorrect File Format
+Date,Temperature,Humidity,Rainfall,Location
+2026-05-22,29.7,88,42.1,Jalan Damansara Kuala Lumpur
+2026-05-23,29.7,90,39.0,Jalan Damansara Kuala Lumpur
