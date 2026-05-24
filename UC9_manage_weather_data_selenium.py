@@ -525,9 +525,9 @@ def test_tc_uc9_17(driver):
             (By.XPATH, "//*[contains(text(),'Weather record added successfully')]")
         )
     )
-    assert "weather record added successfully" in success_msg.text.lower()
 
     screenshot_final(driver, "TC_UC9_17")
+    assert "weather record added successfully" in success_msg.text.lower()
     paginate_until_found(driver, "20/1/2026")
 
 
@@ -646,9 +646,10 @@ def test_tc_uc9_20(driver):
             (By.XPATH, "//*[contains(text(),'Weather record added successfully')]")
         )
     )
-    assert "weather record added successfully" in success_msg.text.lower()
 
     screenshot_final(driver, "TC_UC9_20")
+    
+    assert "weather record added successfully" in success_msg.text.lower()
 
 
 # =========================
@@ -688,9 +689,9 @@ def test_tc_uc9_21(driver):
             (By.XPATH, "//*[contains(text(),'Weather record added successfully')]")
         )
     )
-    assert "weather record added successfully" in success_msg.text.lower()
 
     screenshot_final(driver, "TC_UC9_21")
+    assert "weather record added successfully" in success_msg.text.lower()
 
 
 # =========================
@@ -847,9 +848,10 @@ def test_tc_uc9_25(driver):
             (By.XPATH, "//*[contains(text(),'Weather record added successfully')]")
         )
     )
-    assert "weather record added successfully" in success_msg.text.lower()
 
     screenshot_final(driver, "TC_UC9_25")
+    
+    assert "weather record added successfully" in success_msg.text.lower()
 
 
 # =========================
@@ -889,9 +891,10 @@ def test_tc_uc9_26(driver):
             (By.XPATH, "//*[contains(text(),'Weather record added successfully')]")
         )
     )
-    assert "weather record added successfully" in success_msg.text.lower()
 
     screenshot_final(driver, "TC_UC9_26")
+    
+    assert "weather record added successfully" in success_msg.text.lower()
 
 
 # =========================
