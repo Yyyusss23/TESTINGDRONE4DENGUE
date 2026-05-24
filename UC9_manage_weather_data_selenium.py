@@ -843,13 +843,13 @@ def test_tc_uc9_25(driver):
 
     time.sleep(2)
 
+    screenshot_final(driver, "TC_UC9_25")
+
     success_msg = wait.until(
         EC.presence_of_element_located(
             (By.XPATH, "//*[contains(text(),'Weather record added successfully')]")
         )
     )
-
-    screenshot_final(driver, "TC_UC9_25")
     
     assert "weather record added successfully" in success_msg.text.lower()
 
@@ -886,13 +886,13 @@ def test_tc_uc9_26(driver):
 
     time.sleep(2)
 
+    screenshot_final(driver, "TC_UC9_26")
+
     success_msg = wait.until(
         EC.presence_of_element_located(
             (By.XPATH, "//*[contains(text(),'Weather record added successfully')]")
         )
     )
-
-    screenshot_final(driver, "TC_UC9_26")
     
     assert "weather record added successfully" in success_msg.text.lower()
 
