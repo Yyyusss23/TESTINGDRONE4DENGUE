@@ -241,10 +241,10 @@ def test_tc_uc10_02(driver):
     has_error = any(e.is_displayed() for e in error_elements)
     no_export = not any(e.is_displayed() for e in export_sections)
 
+    screenshot_final(driver, "TC_UC10_02")
+
     assert has_error or no_export, \
         "Inverted date range should either show an error or not produce a valid report"
-
-    screenshot_final(driver, "TC_UC10_02")
 
 
 # =========================
